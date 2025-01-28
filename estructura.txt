@@ -1,0 +1,22 @@
+/mi_proyecto
+│
+├── /public           # Carpeta accesible al usuario (document root)
+│   ├── css/          # Archivos de estilos
+│   ├── js/           # Archivos de scripts
+│   └── img/          # Imágenes
+│
+├── /includes         # Archivos comunes reutilizables
+│   ├── header.php    # Encabezado
+│   ├── footer.php    # Pie de página
+│   └── navbar.php    # Menú de navegación
+│
+├── /views            # Plantillas de contenido (home, contacto, etc.)
+│   ├── home.php
+│   └── contacto.php
+│
+├── /config           # Configuración del proyecto
+│   └── db.php        # Conexión a la base de datos
+│
+├── /index.html     # Archivo principal
+│
+└── /vendor           # Dependencias externas (si usas Composer)
